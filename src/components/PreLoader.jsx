@@ -35,11 +35,11 @@ const PreLoader = () => {
         }`}
       >
         <Aurora
-          colorStops={["#577870", "#1F97A6", "#127B99"]}
-          blend={0.5}
-          amplitude={1.0}
-          speed={0.5}
-        />
+            colorStops={["#ff6a00", "#ffb347", "#ffe259"]}
+            blend={0.7}
+            amplitude={1.2}
+             speed={0.5}
+             />
         <div
           className={`absolute text-white text-6xl font-bold transition-all duration-1000 ${
             fadeText ? "opacity-0 -translate-y-10" : "opacity-100 translate-y-0"
